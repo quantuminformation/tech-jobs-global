@@ -1,6 +1,6 @@
 // Stored in /routes/ai.js
 
-import {config} from '/config.js';
+import {config} from '../config.js';
 
 export default (hostComponent) => {
     hostComponent.innerHTML = '';
