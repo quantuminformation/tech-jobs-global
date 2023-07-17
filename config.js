@@ -14,5 +14,7 @@ export const config = {
     BASE_URL: BASE_URL,
     DISCORD_URL: 'https://discord.gg/mgjjxDAHsf',
     MIN_ANNUAL_SALARY: numberFormat.format(50000),
-    MIN_HOURLY_RATE: numberFormat.format(40)
+    MIN_HOURLY_RATE: numberFormat.format(40),
+    CTO_MIN_ANNUAL_SALARY: numberFormat.format(90000),
+    CTO_MIN_HOURLY_RATE: numberFormat.format(80)
 };
