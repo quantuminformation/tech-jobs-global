@@ -38,7 +38,7 @@ button,
   display: inline-block;
   padding: var(--p-xs) var(--p-sm);
   font-size: 0.75rem; /* make the text smaller */
-  color: var(--default-text-inv);
+  color: white;
   background-color: var(--primary-color);
   border-radius: var(--rounded-full);
   transition: all 0.2s;
