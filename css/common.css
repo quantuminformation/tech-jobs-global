@@ -1,7 +1,8 @@
 /* Stored in /css/common.css */
 :root {
-  --rounded: 4px;
-  --rounded-full: 40px;
+  --rounded: 0.2rem;
+  --rounded-md: 0.5rem;
+  --rounded-full: 2rem;
 
   /* for buttons and ui controls */
   --p-xs: 0.2rem;

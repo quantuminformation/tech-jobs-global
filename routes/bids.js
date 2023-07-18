@@ -5,13 +5,15 @@ import {config} from '../config.js';
 export default (hostComponent) => {
   hostComponent.innerHTML = '';
 
-  const indexHTML = `
+  const bidsSectionHTML = `
   <div class="bids-section">
-    <h1>Bids <span class="badge">Current min bid: ${config.BID_MIN_FORMATTED}</span></h1>
-    <p>Our netwrok helps companies, NGOs, and governments looking for bids on projects. The minimum value of a project should be at least ${config.BID_MIN_FORMATTED}. We believe in compensating our verfied agencies for their skills, time, and effort, and this is a baseline that we strictly adhere to.</p>
-    
-    <a href="${config.DISCORD_URL}" >Join our Discord Server</a>
+    <h1 class="text-center">Bids <span class="badge">Minimum bid: ${config.BID_MIN_FORMATTED}</span></h1>
+    <p>Welcome to our Bids section, a dedicated platform assisting companies, NGOs, and governments in their search for project bids. To ensure the quality and value of projects, we have a strict minimum bid limit of ${config.BID_MIN_FORMATTED}. We believe that this is a reasonable baseline to honor the expertise, time, and effort invested by our verified agencies.</p>
+    <div class="text-center">
+      <a href="${config.DISCORD_URL}" >Join our Discord Server</a>
+    </div>
   </div>
-`;
-  hostComponent.innerHTML = indexHTML;
+  `;
+
+  hostComponent.innerHTML = bidsSectionHTML;
 };

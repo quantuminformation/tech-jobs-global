@@ -12,7 +12,7 @@ export default (hostComponent) => {
 
     <div class="about-nikos-section">
       <h2>About Nikos Katsikanis</h2>
-      <p><a target="_blank" href="https://nikoskatsikanis.com/">Nikos Katsikanis</a> is a passionate technologist, entrepreneur, and investor. With over 10 years of experience in software engineering and development, Nikos has worked in various sectors including financial trading, blockchain technology, and machine learning.</p>
+      <p><a target="_blank" href="https://nikoskatsikanis.com/">Nikos Katsikanis</a> is a passionate technologist, entrepreneur, and investor. With over 16 years of experience in software engineering and development, Nikos has worked in various sectors including financial trading, blockchain technology, and machine learning.</p>
       <p>As an advocate for transparency and fair compensation in the tech industry, Nikos founded Tech Jobs Global to bridge the gap between talented professionals and innovative companies worldwide. He believes in fostering a community where individuals can grow professionally and contribute to the global tech ecosystem.</p>
       <a href="https://nikoskatsikanis.com/" target="_blank">Learn more about Nikos</a>
     </div>
