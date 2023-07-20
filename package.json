@@ -9,6 +9,9 @@
   "scripts": {
     "start": "serve -s . -l 8080"
   },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/quantuminformation/javascript-frameworks-forbidden.git"

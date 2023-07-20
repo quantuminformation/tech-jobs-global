@@ -7,7 +7,7 @@ export default (hostComponent) => {
 
   const indexHTML = `
     <div>
-      <h1>Verificatied Roles</h1>
+      <h1>Verification</h1>
       <p>Verification is an important process to maintain the authenticity and quality of the tech community. It involves NO transfer of sensitive documents over Discord, email or any other platform.</p>
       <p>Currently, the only person who can verify you is me, or my company. The verification process takes between 30-60 minutes or longer due to thorough checks. Please understand that individual developers cannot be verified due to time constraints.</p>
       <p>All verified roles are not subject to our ${config.APP_NAME} Bot restrictions and have access to the private verified channel category to help guide the direction of the server and brainstorm with other verified members. These roles are not permanent and should be reevaluated if your situation changes.</p>
