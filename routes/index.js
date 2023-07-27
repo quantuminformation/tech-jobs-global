@@ -1,5 +1,7 @@
 // Stored in /routes/index.js
 
+import {config} from "../config";
+
 export default (hostComponent) => {
     hostComponent.innerHTML = '';
 
@@ -29,7 +31,7 @@ export default (hostComponent) => {
 
     <div class="cta-section">
       <h2>Advance Your Career with Us!</h2>
-      <a href="https://discord.gg/mgjjxDAHsf" class="cta-button" target="_blank">Join the Tech Jobs Global Discord community</a>
+      <a href="${config.DISCORD_URL}" class="cta-button" target="_blank">Join the Tech Jobs Global Discord community</a>
     </div>
 
 
