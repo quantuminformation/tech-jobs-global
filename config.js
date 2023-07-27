@@ -10,7 +10,7 @@ const numberFormat = new Intl.NumberFormat('en-US', {
 const config = {
     APP_NAME: "Tech Jobs Global",
     BASE_URL: BASE_URL,
-    DISCORD_URL: 'https://discord.gg/mgjjxDAHsf',
+    DISCORD_URL: 'https://discord.gg/dwjJ6uaw6H',
     MIN_ANNUAL_SALARY: 50000,
     MIN_HOURLY_RATE: 40,
     CTO_MIN_ANNUAL_SALARY: 90000,
