@@ -1,6 +1,6 @@
 // Stored in /routes/index.js
 
-import {config} from "../config";
+import {config} from "../config.js";
 
 export default (hostComponent) => {
     hostComponent.innerHTML = '';
